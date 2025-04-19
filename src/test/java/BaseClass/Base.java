@@ -1,4 +1,4 @@
-package LoginTest;
+package BaseClass;
 
 import org.openqa.selenium.WebDriver;
 

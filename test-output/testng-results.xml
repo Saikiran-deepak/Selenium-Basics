@@ -1,71 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[B720A7526FE53B4DB2C033C1386429CA]]>
-    </line>
   </reporter-output>
-  <suite started-at="2025-04-19T00:42:58 IST" name="Default suite" finished-at="2025-04-19T00:45:19 IST" duration-ms="141447">
+  <suite started-at="2025-04-20T00:33:17 IST" name="Default suite" finished-at="2025-04-20T00:33:41 IST" duration-ms="24432">
     <groups>
     </groups>
-    <test started-at="2025-04-19T00:42:58 IST" name="Default test" finished-at="2025-04-19T00:45:19 IST" duration-ms="141447">
-      <class name="WindowHandles.Windows">
-        <test-method signature="windowMessage()[pri:0, instance:WindowHandles.Windows@409bf450]" started-at="2025-04-19T00:42:58 IST" name="windowMessage" finished-at="2025-04-19T00:45:19 IST" duration-ms="141366" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to find element with locator By.tagName: body
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.tagName: body
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at WindowHandles.Windows.windowMessage(Windows.java:128)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+    <test started-at="2025-04-20T00:33:17 IST" name="Default test" finished-at="2025-04-20T00:33:41 IST" duration-ms="24432">
+      <class name="AlertsTesting.AlertAcceptOrCancel">
+        <test-method signature="acceptAlert()[pri:0, instance:AlertsTesting.AlertAcceptOrCancel@5fe94a96]" started-at="2025-04-20T00:33:17 IST" name="acceptAlert" finished-at="2025-04-20T00:33:41 IST" duration-ms="24388" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[B720A7526FE53B4DB2C033C1386429CA]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- windowMessage -->
-      </class> <!-- WindowHandles.Windows -->
+        </test-method> <!-- acceptAlert -->
+      </class> <!-- AlertsTesting.AlertAcceptOrCancel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

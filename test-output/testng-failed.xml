@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WindowHandles.Windows">
+      <class name="AlertsTesting.AlertAcceptOrCancel">
         <methods>
-          <include name="windowMessage"/>
+          <include name="acceptAlert"/>
         </methods>
-      </class> <!-- WindowHandles.Windows -->
+      </class> <!-- AlertsTesting.AlertAcceptOrCancel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

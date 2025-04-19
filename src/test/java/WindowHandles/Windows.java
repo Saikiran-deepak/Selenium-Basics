@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import LoginTest.Base;// packagename.classname
+import BaseClass.Base;
 
 public class Windows extends Base {
 	static Base b;

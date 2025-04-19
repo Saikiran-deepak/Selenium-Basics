@@ -8,6 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
+import BaseClass.Base;
+
 public class Navigate extends Base{
 	static WebDriver driver;
 	static Base b;
