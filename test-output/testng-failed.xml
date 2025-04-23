@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Frames.NestedFrames">
+      <class name="Clicks.ClickButtons">
         <methods>
-          <include name="nestedFrames"/>
+          <include name="rightClick"/>
         </methods>
-      </class> <!-- Frames.NestedFrames -->
+      </class> <!-- Clicks.ClickButtons -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
