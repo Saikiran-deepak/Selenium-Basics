@@ -14,11 +14,11 @@ import org.testng.annotations.Test;
 import BaseClass.Base;
 public class IFrames extends Base{
 	static Base b;
-	static WebDriver driver;
+	
 	@Test
 	public void frames() throws InterruptedException{
 		b=new Base();
-		b.Login2();
+		driver = b.Login2();
 		driver=new ChromeDriver();
 		driver.get("https://Demoqa.com");
 		WebElement element=driver.findElement(By.xpath("//h5[contains(text(),'Alerts, Frame & Windows')]"));

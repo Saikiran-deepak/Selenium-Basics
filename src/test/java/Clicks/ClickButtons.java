@@ -10,13 +10,13 @@ import org.testng.annotations.Test;
 
 import BaseClass.Base;
 
-public class ClickButtons {
-	static WebDriver driver;
+public class ClickButtons extends Base{
+	
 	static Base b;
 	@Test
 	public void doubleClick() {
 		b=new Base();
-		b.Login2();
+		driver = b.Login2();
 		driver=new ChromeDriver();
 		driver.get("https://demoqa.com");
 		driver.manage().window().maximize();
@@ -34,7 +34,7 @@ public class ClickButtons {
 	@Test
 	public void rightClick() {
 		b=new Base();
-		b.Login2();
+		driver = b.Login2();
 		driver=new ChromeDriver();
 		driver.get("https://demoqa.com");
 		driver.manage().window().maximize();

@@ -10,13 +10,13 @@ import static org.testng.Assert.assertEquals;
 
 import BaseClass.Base;
 public class NestedFrames extends Base{
-	static WebDriver driver;
+	
 	static Base base;
 	//static 
 	@Test
 	public void nestedFrames() {
 		base=new Base();
-		base.Login2();
+		driver = base.Login2();
 		driver=new ChromeDriver();
 		driver.get("https://demoqa.com");
 		WebElement element= driver.findElement(By.xpath("//h5[contains(text(),'Alerts, Frame & Windows')]"));
