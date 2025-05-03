@@ -1,0 +1,10 @@
+WebTables\WebTableTest.class
+Frames\IFrames.class
+Frames\NestedFrames.class
+WindowHandles\Windows.class
+BaseClass\Base.class
+CheckBox\CheckBoxTest.class
+Clicks\ClickButtons.class
+LoginTest\Navigate.class
+LoginTest\OpenWebsite.class
+AlertsTesting\AlertAcceptOrCancel.class

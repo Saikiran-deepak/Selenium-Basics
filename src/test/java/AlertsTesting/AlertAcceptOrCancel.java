@@ -14,15 +14,32 @@ import org.testng.annotations.Test;
 
 import BaseClass.Base;
 
+<<<<<<< HEAD
 public class AlertAcceptOrCancel {
 	static WebDriver driver;
+=======
+public class AlertAcceptOrCancel extends Base{
+	//static WebDriver driver;
+>>>>>>> a78173b (Running TestCase from XML)
 	static Base b;
 
 	@Test
 	public void acceptAlert() throws InterruptedException {
+<<<<<<< HEAD
 		b = new Base();
 		b.Login2();
 		driver = new ChromeDriver();
+=======
+		b=new Base();
+		driver = b.Login2();
+		
+	//	driver = new ChromeDriver();
+//--> For Head Less
+//		ChromeOptions options = new ChromeOptions();
+//		options.addArguments("--headless=new"); // or just "--headless" for older versions
+//		WebDriver driver = new ChromeDriver(options);
+//<<-		
+>>>>>>> a78173b (Running TestCase from XML)
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().window().maximize();
 		driver.get("https://demoqa.com/");

@@ -3,11 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="CheckBox.CheckBoxTest">
         <methods>
           <include name="checkBoxTest3"/>
         </methods>
       </class> <!-- CheckBox.CheckBoxTest -->
+=======
+      <class name="AlertsTesting.AlertAcceptOrCancel">
+        <methods>
+          <include name="acceptAlert"/>
+        </methods>
+      </class> <!-- AlertsTesting.AlertAcceptOrCancel -->
+>>>>>>> a78173b (Running TestCase from XML)
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
