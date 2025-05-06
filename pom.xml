@@ -20,7 +20,7 @@
 			<version>7.7.0</version>
 			<scope>test</scope>
 		</dependency>
-<<<<<<< HEAD
+
 		
 			<!-- SLF4J API -->
 			<dependency>
@@ -42,8 +42,7 @@
 				<artifactId>POM</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
-	</dependencies>
-=======
+
 
 		<!-- SLF4J API -->
 		<dependency>
@@ -109,5 +108,4 @@
 	</build>
 
 
->>>>>>> a78173b (Running TestCase from XML)
 </project>

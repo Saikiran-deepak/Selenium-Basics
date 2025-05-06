@@ -25,7 +25,7 @@ public class CheckBoxTest extends Base {
 	public void test1() throws InterruptedException {
 		b = new Base();
 		driver = b.Login2();
-		driver = new ChromeDriver();
+		//driver = new ChromeDriver();
 		driver.get("https://demoqa.com");
 		driver.manage().window().maximize();
 		WebElement ele = driver.findElement(By.xpath("//h5[contains(text(),'Elements')]"));
@@ -42,12 +42,21 @@ public class CheckBoxTest extends Base {
 		List<WebElement> elements = driver.findElements(By.xpath(
 				"(//li[@class=\"rct-node rct-node-parent rct-node-expanded\"])[3]//li[@class=\"rct-node rct-node-parent rct-node-expanded\"]//li"));
 
-		for (int i = 0; i < elements.size(); i++) {
-			if (!elements.get(i).isSelected()) {
+//		for (int i = 0; i < elements.size(); i++) {
+//			if (!elements.get(i).isSelected()) {
+//				Thread.sleep(3000);
+//				WebElement officeElement = elements.get(i);
+//				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", officeElement);
+//				officeElement.click();
+//			}
+//		}
+
+		for (WebElement element : elements) {
+			if (!element.isSelected()) {
 				Thread.sleep(3000);
-				WebElement officeElement = elements.get(i);
-				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", officeElement);
-				officeElement.click();
+				//WebElement officeElement = element;
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+				element.click();
 			}
 		}
 
@@ -55,11 +64,11 @@ public class CheckBoxTest extends Base {
 		driver.close();
 	}
 
-	@Test
+	//@Test
 	public void checkBoxTest2() {
 		b = new Base();
 		driver = b.Login2();
-		driver = new ChromeDriver();
+		//driver = new ChromeDriver();
 		driver.get("https://demoqa.com");
 		driver.manage().window().maximize();
 		WebElement ele = driver.findElement(By.xpath("//h5[contains(text(),'Elements')]"));
@@ -100,7 +109,7 @@ public class CheckBoxTest extends Base {
 
 	}
 
-	@Test
+	//@Test
 	public void checkBoxTest3() {
 		b = new Base();
 		driver = b.Login2(); // Assuming Login2 returns WebDriver

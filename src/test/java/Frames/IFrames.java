@@ -19,11 +19,7 @@ public class IFrames extends Base{
 	public void frames() throws InterruptedException{
 		b=new Base();
 		driver = b.Login2();
-<<<<<<< HEAD
-		driver=new ChromeDriver();
-=======
-		//driver=new ChromeDriver();
->>>>>>> a78173b (Running TestCase from XML)
+
 		driver.get("https://Demoqa.com");
 		WebElement element=driver.findElement(By.xpath("//h5[contains(text(),'Alerts, Frame & Windows')]"));
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
