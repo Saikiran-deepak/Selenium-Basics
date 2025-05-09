@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Selenium Suite">
+  <test name="Widgets Test">
+    <classes>
+      <class name="widgets.AutoComplete"/>
+      <class name="widgets.Dates"/>
+    </classes>
+  </test>
+</suite>

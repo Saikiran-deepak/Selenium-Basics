@@ -1,10 +1,14 @@
+uploadAndDownload\Upload.class
 WebTables\WebTableTest.class
+BaseClass\Base.class
+Clicks\ClickButtons.class
+widgets\AutoComplete.class
+LoginTest\OpenWebsite.class
 Frames\IFrames.class
 Frames\NestedFrames.class
+radioButtons\RadioButtons.class
 WindowHandles\Windows.class
-BaseClass\Base.class
 CheckBox\CheckBoxTest.class
-Clicks\ClickButtons.class
 LoginTest\Navigate.class
-LoginTest\OpenWebsite.class
+widgets\Dates.class
 AlertsTesting\AlertAcceptOrCancel.class

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="widgets.Dates">
+      <class name="widgets.ProgressBar">
         <methods>
-          <include name="dateAndTimeSection"/>
+          <include name="sliderTest"/>
         </methods>
-      </class> <!-- widgets.Dates -->
+      </class> <!-- widgets.ProgressBar -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

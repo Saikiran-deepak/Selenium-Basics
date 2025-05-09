@@ -21,34 +21,26 @@
 			<scope>test</scope>
 		</dependency>
 
-		
-			<!-- SLF4J API -->
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>slf4j-api</artifactId>
-				<version>1.7.30</version>
-			</dependency>
-
-			<!-- SLF4J Java Util Logging Binding -->
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>slf4j-jdk14</artifactId>
-				<version>1.7.30</version>
-			</dependency>
-
-
-			<dependency>
-				<groupId>Selenium</groupId>
-				<artifactId>POM</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
-			</dependency>
-
 
 		<!-- SLF4J API -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 			<version>1.7.30</version>
+		</dependency>
+
+		<!-- Apache POI core -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>5.2.3</version>
+		</dependency>
+
+		<!-- Apache POI for .xlsx support (XSSF) -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.2.3</version>
 		</dependency>
 
 

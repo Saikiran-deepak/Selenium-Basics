@@ -19,6 +19,7 @@ public class Dates extends Base {
 	String MONTH = "October";
 	String DAY = "12";
 
+	@Test
 	public void dateSelection() throws InterruptedException {
 		b = new Base();
 		driver = b.Login2();
@@ -105,44 +106,33 @@ public class Dates extends Base {
 			if (desiredYear > displayedYear) {
 				WebElement nextButton = driver.findElement(By.xpath("//a[contains(@class,'years-upcoming')]"));
 				Dates.executor(nextButton).click();
-				//Reporter.log("Clicked NEXT year", true);
+				// Reporter.log("Clicked NEXT year", true);
 			} else {
 				WebElement prevButton = driver.findElement(By.xpath("//a[contains(@class,'years-previous')]"));
 				Dates.executor(prevButton).click();
-				//Reporter.log("Clicked PREVIOUS year", true);
+				// Reporter.log("Clicked PREVIOUS year", true);
 			}
 
 			Thread.sleep(1000); // Let the new year list load
 		}
-		
-		WebElement monthDropDown=driver.findElement(By.xpath("//span[@class=\"react-datepicker__month-read-view--down-arrow\"]"));
+
+		WebElement monthDropDown = driver
+				.findElement(By.xpath("//span[@class=\"react-datepicker__month-read-view--down-arrow\"]"));
 		Dates.executor(monthDropDown).click();
-		List<WebElement> Months=driver.findElements(By.className("react-datepicker__month-option"));
-		for(WebElement month:Months) {
-			if(month.getText().contains(MONTH)) {
+		List<WebElement> Months = driver.findElements(By.className("react-datepicker__month-option"));
+		for (WebElement month : Months) {
+			if (month.getText().contains(MONTH)) {
 				Dates.executor(month).click();
 				break;
-				
+
 			}
-			
+
 		}
-		
-		WebElement day=driver.findElement(By.xpath("//div[contains(text(),'"+DAY+"')]"));
-		 Dates.executor(day).click();
-		
-//		List<WebElement> dates=driver.findElements(By.xpath("//div[contains(@class,'react-datepicker__day react-datepicker__day')]"));
-//		
-//		for (WebElement date : dates) {
-//		   // String dateText = date.getText().trim();
-//		    Reporter.log("Selected Day: " + date.getText(), true);
-//		    
-////		    if (dateText.contains(DAY)) {
-////		        Dates.executor(date).click();
-////		        Reporter.log("Selected Day: " + dateText, true);
-////		        break;  // Stop loop after selecting the correct date
-////		    }
-//		}
-		
+
+		WebElement day = driver.findElement(By.xpath("//div[contains(text(),'" + DAY + "')]"));
+		Dates.executor(day).click();
+
+		driver.quit();
 	}
 
 	public static WebElement executor(WebElement element) {

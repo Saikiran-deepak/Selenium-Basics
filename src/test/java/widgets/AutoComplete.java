@@ -61,6 +61,8 @@ public class AutoComplete extends Base {
 				Reporter.log("Element not found", true);
 			}
 		}
+		
+		driver.quit();
 
 	}
 }
