@@ -1,6 +1,0 @@
-projectKey=selenium:com.SeleniumNonFramework.com
-serverUrl=http://localhost:9000
-serverVersion=25.4.0.105899
-dashboardUrl=http://localhost:9000/dashboard?id=selenium%3Acom.SeleniumNonFramework.com
-ceTaskId=03c95798-6858-461c-bd8c-eaeb6f55242b
-ceTaskUrl=http://localhost:9000/api/ce/task?id=03c95798-6858-461c-bd8c-eaeb6f55242b

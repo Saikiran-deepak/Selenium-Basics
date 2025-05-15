@@ -5,6 +5,9 @@
 			<class name="AlertsTesting.AlertAcceptOrCancel" />
 			<class name="widgets.AutoComplete" />
 			<class name="widgets.Dates" />
+			<class name="Clicks.ClickButtons" />
+			<class name="Frames.IFrames" />
+			<class name="Frames.NestedFrames" />
 		</classes>
 	</test>
 </suite>

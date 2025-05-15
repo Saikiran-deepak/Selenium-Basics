@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="widgets.ProgressBar">
+      <class name="ExcelDataDriven.Practice_Forms">
         <methods>
-          <include name="sliderTest"/>
+          <include name="closeBrowser"/>
+          <include name="setupExcel"/>
+          <include name="registerClassTest"/>
         </methods>
-      </class> <!-- widgets.ProgressBar -->
+      </class> <!-- ExcelDataDriven.Practice_Forms -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

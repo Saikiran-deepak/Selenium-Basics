@@ -2,13 +2,17 @@ uploadAndDownload\Upload.class
 WebTables\WebTableTest.class
 BaseClass\Base.class
 Clicks\ClickButtons.class
+ReadDataFromExcel\ReadData.class
 widgets\AutoComplete.class
 LoginTest\OpenWebsite.class
+widgets\Slider.class
 Frames\IFrames.class
 Frames\NestedFrames.class
+ReadDataFromExcel\InputClass.class
 radioButtons\RadioButtons.class
 WindowHandles\Windows.class
 CheckBox\CheckBoxTest.class
 LoginTest\Navigate.class
 widgets\Dates.class
 AlertsTesting\AlertAcceptOrCancel.class
+widgets\ProgressBar.class

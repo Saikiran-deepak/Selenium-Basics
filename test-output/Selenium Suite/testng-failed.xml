@@ -3,16 +3,11 @@
 <suite name="Failed suite [Selenium Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Alerts Test(failed)">
     <classes>
-      <class name="widgets.Dates">
+      <class name="Clicks.ClickButtons">
         <methods>
-          <include name="dateAndTimeSection"/>
+          <include name="rightClick"/>
         </methods>
-      </class> <!-- widgets.Dates -->
-      <class name="AlertsTesting.AlertAcceptOrCancel">
-        <methods>
-          <include name="acceptAlert"/>
-        </methods>
-      </class> <!-- AlertsTesting.AlertAcceptOrCancel -->
+      </class> <!-- Clicks.ClickButtons -->
     </classes>
   </test> <!-- Alerts Test(failed) -->
 </suite> <!-- Failed suite [Selenium Suite] -->

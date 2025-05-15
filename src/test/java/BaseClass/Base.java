@@ -22,8 +22,11 @@ public static WebDriver driver;
 	public WebDriver Login2() {
 		System.setProperty("WebDriver.chrome.driver", "C:\\Users\\kiran\\Drivers\\chromedriver-win64\\chromedriver.exe");
 	    WebDriver driver = new ChromeDriver();
+	    driver.get("https://demoqa.com/");
 	    // login logic
 	    return driver;
 	}
+	
+
 
 }
